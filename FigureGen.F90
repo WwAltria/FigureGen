@@ -11017,8 +11017,8 @@
                     ENDIF
 
                     CALL SYSTEM(TRIM(Path)//"gmtset PAPER_MEDIA A0")
-                    CALL SYSTEM(TRIM(Path)//"gmtset PLOT_DEGREE_FORMAT -D")
-                    CALL SYSTEM(TRIM(Path)//"gmtset OUTPUT_DEGREE_FORMAT -D")
+                    CALL SYSTEM(TRIM(Path)//"gmtset PLOT_DEGREE_FORMAT +D")
+                    CALL SYSTEM(TRIM(Path)//"gmtset OUTPUT_DEGREE_FORMAT +D")
                     CALL SYSTEM(TRIM(Path)//"gmtset BASEMAP_TYPE fancy")
                     CALL SYSTEM(TRIM(Path)//"gmtset D_FORMAT %lg")
                     CALL SYSTEM(TRIM(Path)//"gmtset HISTORY FALSE")
